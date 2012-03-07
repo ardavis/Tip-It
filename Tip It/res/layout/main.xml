@@ -63,19 +63,22 @@
 	            android:id="@+id/button1"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="@string/digit1" />
+	            android:text="@string/digit1"
+	            android:layout_weight="1" />
 
 	        <Button
 	            android:id="@+id/button2"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="@string/digit2" />
+	            android:text="@string/digit2"
+	            android:layout_weight="1" />
 	        
 	        <Button
 	            android:id="@+id/button3"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="@string/digit3" />
+	            android:text="@string/digit3"
+	            android:layout_weight="1" />
         </TableRow>
 
         <TableRow
@@ -88,19 +91,22 @@
 	            android:id="@+id/button4"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="@string/digit4" />
+	            android:text="@string/digit4"
+	            android:layout_weight="1" />
 
 	        <Button
 	            android:id="@+id/button5"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="@string/digit5" />
+	            android:text="@string/digit5"
+	            android:layout_weight="1" />
 	        
 	        <Button
 	            android:id="@+id/button6"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="@string/digit6" />
+	            android:text="@string/digit6"
+	            android:layout_weight="1" />
         </TableRow>
 
         <TableRow
@@ -113,19 +119,22 @@
 	            android:id="@+id/button7"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="@string/digit7" />
+	            android:text="@string/digit7"
+	            android:layout_weight="1" />
 
 	        <Button
 	            android:id="@+id/button8"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="@string/digit8" />
+	            android:text="@string/digit8"
+	            android:layout_weight="1" />
 	        
 	        <Button
 	            android:id="@+id/button9"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="@string/digit9" />
+	            android:text="@string/digit9"
+	            android:layout_weight="1" />
         </TableRow>
 
         <TableRow
@@ -138,19 +147,22 @@
 	            android:id="@+id/buttonDecimal"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="@string/digitDecimal" />
+	            android:text="@string/digitDecimal"
+	            android:layout_weight="1" />
 
 	        <Button
 	            android:id="@+id/button0"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="@string/digit0" />
+	            android:text="@string/digit0"
+	            android:layout_weight="1" />
 	        
 	        <Button
 	            android:id="@+id/buttonDelete"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:text="@string/digitDelete" />
+	            android:text="@string/digitDelete"
+	            android:layout_weight="1" />
         </TableRow>
     </TableLayout>
 

@@ -71,7 +71,6 @@ public class TipItActivity extends Activity implements OnClickListener, OnChecke
         update();
     }
 
-	@Override
 	public void onClick(View v) {
 		
 		switch(v.getId()) {
@@ -177,7 +176,6 @@ public class TipItActivity extends Activity implements OnClickListener, OnChecke
 		total.setText(Double.toString(totalDecimal));
 	}
 
-	@Override
 	public void onCheckedChanged(RadioGroup group, int checkedId) {
 		switch (checkedId) {
 			case R.id.percent10:
